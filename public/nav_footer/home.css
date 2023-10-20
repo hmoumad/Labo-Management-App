@@ -1,0 +1,198 @@
+body 
+{
+    background:url("img/Bg/BS.jpg") lightskyblue no-repeat fixed;
+    background-size: 100% 100%;
+    font-weight: bold;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    width: 90%;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.STDOC,.STJURY,.STSOUT
+{
+    background-color: rgb(213 213 213);;
+    margin :20px ;
+    display: flex;
+    box-shadow: 3px 3px  rgba(66, 21, 21, 0.3);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px 10px;
+    flex:1;
+}
+.Tit1
+{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.Tit2
+{
+    color: blue;
+    margin-top: 10px;
+}
+.content img
+{
+    float: right;
+}
+.Sous-Content 
+{
+  margin-left: 15px ;
+  flex: 1;
+
+}
+footer
+{
+    background-color: #343a40;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.div2
+{
+    color: #ffc107; 
+    text-align: center;
+    font-size: 100px;
+}
+input
+{
+    background:turquoise;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px 15px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+input:hover
+{
+    background: linear-gradient(to right,white,turquoise);
+    color: #343a40;
+}
+.dsp
+{
+    display: block;
+    flex: 1;
+}
+@media screen and (max-width:1024px) {
+    img
+    {
+        width: 55px;
+    }
+    .STSOUT .Sous-Content,.STDOC .Sous-Content,.STJURY .Sous-Content
+    {
+        margin-right: 20px;
+    }
+    .STDOC,.STJURY,.STSOUT
+    {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width:850px) {
+    img
+    {
+        width: 50%;
+    }
+    .dsp
+    {
+        display: none;
+    }
+    .content
+    {
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width:710px) {
+    .dsp
+    {
+        display: block;
+    }
+    .content
+    {
+        flex-direction: column;
+    }
+    .STDOC,.STJURY,.STSOUT
+   {
+        margin :5px ;
+        padding: 10px;
+        flex: none;
+   }
+   .STSOUT
+   {
+        padding: 8px;
+   }
+   .div2
+    {
+        font-size: 50px;
+    }
+    footer
+    {
+        position: relative;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width:637px){
+    footer
+    {
+        position: absolute;
+        bottom: 0%;
+    }
+}
+@media screen and (max-width:390px) {
+    .dsp
+    {
+        width: 100%;
+    }
+    img
+    {
+        width: 83px;
+    }
+}
+@media screen and (max-width:350px) {
+    body
+    {
+        width: 350px;
+    }
+    footer
+    {
+        width: 350px;
+    }
+}
+@media screen and (max-height:700px) {
+    footer
+    {
+        position: relative;
+        /* padding-bottom: 10px; */
+    }
+}
+.welcometext{
+    color: black;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.welcometext h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.contenttext{
+    margin-left: 53px;
+    width: 70%
+}
+.contenttext p{
+    font-size: x-large;
+    color: #1fff32;
+    font-weight: bolder;
+}

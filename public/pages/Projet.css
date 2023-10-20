@@ -1,0 +1,61 @@
+.card-header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.ButtonAdd{
+    float: right;
+    margin-top: 8px;
+    float: right;
+    margin-right: 20px;
+    width: 180px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: #00AAFF;
+}
+.ButtonAdd:hover{
+    background-color: #76cefa;
+    color: rgb(43, 41, 41);
+}
+
+#searchbutton{
+    justify-content: space-between;
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 14px;
+    background-color: #00AAFF;
+    color: white;
+    border: none;
+}
+#searchbutton:hover{
+    background-color: #76cefa;
+    color: rgb(43, 41, 41);
+}
+.searchdiv input{
+    width: 400px;
+    margin-right: 20px;
+}
+.searchdiv{
+    display: flex;
+    float: right;
+}
+#cardid{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: normal;
+    margin-top: 60px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+#cardelement{
+    width: 20rem;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.gridtr{
+    height: 90px;
+}

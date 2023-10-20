@@ -1,0 +1,33 @@
+.alerts
+{
+    display: none;
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    border-left: 10px solid tomato;
+    position: fixed;
+    bottom: 5%;
+    right:20px;
+    font-weight: bold !important;
+    font-family:Helvetica, sans-serif;
+    font-size: 20px;
+    animation: show 4s ease forwards;
+    padding-left: 10px;
+    z-index: 10;
+    /* height: 30px; */
+    color: white;
+}
+@keyframes show {
+    0% 
+    {
+        transform: translateX(500px);
+    }
+    50%
+    {
+        transform: translateX(-50px);
+    }
+    100%
+    {
+        transform: translateX(-20px);
+    }
+}

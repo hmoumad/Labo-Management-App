@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.logo{
+	display: flex;
+	padding: 20px;
+	align-items: center;
+}
+h1{
+	
+    text-align: center;
+    width: 100%;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 600;
+    font-size: 41px;
+    color: #6e6666;
+}
+span{
+	    font-size: 31px;
+}
+.vide{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+}
+.feautures{
+	display: flex;
+	flex-wrap: wrap;
+    margin-top: 40px;
+}
+.insert-filiere,.insert-section,.statistique,.edit-etudiant{
+	border: solid #0000004a 1px;
+	height: 300px;
+    width: calc(33.3% - 40px);
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+
+	
+}
+.insert-filiere div,.insert-section div,.statistique div,.edit-etudiant div{
+	border: solid #c1b9b9 1px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+	
+}
+.insert-filiere:hover, .insert-filiere:hover,.insert-section:hover,.statistique:hover,.edit-etudiant:hover{
+	box-shadow: 5px 3px 15px 0px #000000;
+}
+
+.feautures h3{
+
+	margin: 10px;
+	text-align: center;
+	font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 500;
+    color: #6e6666;
+	
+}
+@media screen and (max-width:850px) {
+    .feautures{
+        display: inline;
+    }
+    .insert-filiere,.insert-section,.statistique,.edit-etudiant{
+	height: 300px;
+    width: 90%;
+    background-color: white;
+    margin: 20px;
+    padding: 10px;	
+}
+}
+form{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+}
+.alert{
+	position: absolute;
+}
+.ButtonAdd{
+    float: right;
+    margin-right: 30px;
+    margin-left: 45px;
+    width: 120px;
+    margin-top: 7px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: #00AAFF;
+}
+.ButtonAdd:hover{
+    background-color: #5dc6fa;
+    color: black;
+}

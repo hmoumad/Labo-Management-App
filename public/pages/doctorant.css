@@ -1,0 +1,105 @@
+.content1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #EDEDED;
+    margin-top: -24px;
+    border-bottom: 1.5px solid #80878d;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.ButtonAdd{
+    float: right;
+    margin-right: 30px;
+    margin-left: 50px;
+    width: 180px;
+    margin-top: 7px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: #00AAFF;
+}
+.ButtonAdd:hover{
+    background-color: #5dc6fa;
+    color: black;
+}
+#searchbutton{
+    justify-content: space-between;
+    width: 45px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 14px;
+    background-color: #00AAFF;
+    color: white;
+    border: none;
+}
+#searchbutton:hover{
+    background-color: #76cefa;
+    color: rgb(43, 41, 41);
+}
+.searchdiv{
+    display: flex;
+    /* float: right; */
+}
+.card{
+    width: 98%;
+    margin: auto;
+}
+#searchinput{
+    width: 30%;
+
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #f5f2f2;
+    margin-top: 5px;
+    height: 50px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.iconsboot{
+    width: 33px;
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.content21{
+    justify-content: space-between;
+    margin-right: 20px;
+}
+#image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.alert-success {
+    text-align: center;
+    height: 40px;
+    padding:10px;
+
+}
+.alert-danger{
+text-align: center;
+height: 40px;
+padding:5px;
+}
+.pagination {
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+#cardid{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+table th,td{
+    padding-top: 15px;
+}

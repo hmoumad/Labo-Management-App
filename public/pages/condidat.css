@@ -1,0 +1,17 @@
+#ButtonAddColomn{
+    float: right;
+    margin-right: 30px;
+    margin-left: 50px;
+    width: 180px;
+    margin-top: 0px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: #00AAFF;
+}
+#ButtonAddColomn:hover{
+    background-color: #5dc6fa;
+    color: black;
+}
